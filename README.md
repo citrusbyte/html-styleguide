@@ -1,8 +1,5 @@
 # HTML Style Guide
 
-Inspired by [@mdo codeguide](http://codeguide.co/#html) and taking into account
-accesibility standards from [WebAIM](http://webaim.org/standards/508/checklist).
-
 ## Formatting
 
 * Use UTF-8.
@@ -16,12 +13,13 @@ accesibility standards from [WebAIM](http://webaim.org/standards/508/checklist).
 * When a single tag takes more than one line, align the first letter of each
   attribute to the first letter of the first attribute. Leave a blank line after
   the tag end.
-  ```html
+  ```
+<!-- _ represent spaces -->
 <a class="verLongClassName"
-   id="very-long-id-attribute"
-   href="/very/long/path">
+___id="very-long-id-attribute"
+___href="/very/long/path">
 
-  Link
+__Link
 </a>
   ```
 
@@ -156,3 +154,9 @@ accesibility standards from [WebAIM](http://webaim.org/standards/508/checklist).
   </body>
 </html>
 ```
+
+## References
+
+* [@mdo codeguide](http://codeguide.co/#html)
+
+* [WebAIM](http://webaim.org/standards/508/checklist)
